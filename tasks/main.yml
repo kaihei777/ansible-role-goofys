@@ -9,12 +9,8 @@
     packages:
       - golang
       - fuse
-  tags:
-    - goofys
 
 - name: Install goofys
   shell: |
     go get github.com/kahing/goofys
     go install github.com/kahing/goofys
-  tags:
-    - goofys
