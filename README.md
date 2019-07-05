@@ -64,9 +64,9 @@ Got more questions? Check out [questions other people asked](https://github.com/
 License
 -------
 
-BSD
+MIT / BSD
 
 Author Information
 ------------------
 
-An optional section for the role authors to include contact information, or a website (HTML is not allowed).
+This role was created in 2019 by Kaihei Sameshima.
