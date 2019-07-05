@@ -1,0 +1,20 @@
+---
+# tasks file for ansible-role-goofys
+
+- name: install requirements packages
+  yum:
+    name: "{{ packages }}"
+    enablerepo: "epel"
+  vars:
+    packages:
+      - golang
+      - fuse
+  tags:
+    - goofys
+
+- name: Install goofys
+  shell: |
+    go get github.com/kahing/goofys
+    go install github.com/kahing/goofys
+  tags:
+    - goofys
