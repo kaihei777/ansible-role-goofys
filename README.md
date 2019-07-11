@@ -3,6 +3,11 @@ ansible_role_goofys
 
 Goofys allows you to mount an S3 bucket as a filey system.
 
+Galaxy link
+------------
+
+https://galaxy.ansible.com/kaihei777/ansible_role_goofys/
+
 Requirements
 ------------
 
